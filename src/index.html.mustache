@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="info">
+        <h1 class="info_name">Matheus H P Moreira</h1>
+        <div class="info_role">{{role}}</div>
+    </header>
+
+    <main class="content">
+        <div class="bio">
+            {{bio}}
+        </div>
+
+        <section class="projects">
+            <h2 class="projects_heading">Projetos</h2>
+            <ul class="projects_list">
+            {{#projects}}
+                <li class="projects_item">
+                    <h3 class="projects_title"><a href="{{{url}}}">{{title}}</a></h3>
+                    <div class="projects_description">{{description}}</div>
+                    <div class="projects_skills"><b>Competências:</b> {{skills}}</div>
+                    <div class="projects_stack"><b>Tecnologias:</b> {{tech}}</div>
+                </li>
+            {{/projects}}
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2 class="education_title">Formação acadêmica e certificações</h2>
+            <ul class="education_list">
+            {{#education}}
+                <li class="education_item">
+                    <h3 class="education_subject">{{title}}</h3>
+                    <div class="education_institute">{{institute}}</div>
+                    <div class="education_time">{{time}}</div>
+                </li>
+            {{/education}}
+            </ul>
+        </section>
+    </main>
+
+    <div class="side">
+        <section class="personal">
+            <h2 class="personal_title">Dados pessoais</h2>
+            <ul class="personal_list">
+            {{#profile}}
+                <li class="personal_item">
+                    <div class="personal_name -{{title}}">{{title}}</div>
+                    <div class="personal_data">
+                    {{#url}}
+                        <a href="{{{url}}}" target="_blank">{{data}}</a>
+                    {{/url}}
+                    {{^url}}
+                        {{data}}
+                    {{/url}}
+                    </div>
+                </li>
+            {{/profile}}
+            </ul>
+        </section>
+
+        <section class="techs">
+            <h2 class="techs_title">Tecnologias</h2>
+            <ul class="techs_list">
+            {{#tech}}
+                <li class="techs_item">{{.}}</li>
+            {{/tech}}
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>

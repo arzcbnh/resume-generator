@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "mustache": "^4.2.0",
+    "node": "^22.11.0",
+    "puppeteer": "^23.8.0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+    "role": "Desenvolvedor full-stack",
+    "bio": "Estudante de Física na UFSC. Comecei a estudar programação como hobbie durante a pandemia, aprendendo C, Lua, e desenvolvendo minijogos em LÖVE. Me profissionalizei para desenvolvimento full-stack pelo curso Driven Flex, hoje tendo conhecimento em HTML, CSS, JavaScript, React, Node, e outras tecnologias.",
+    "projects": [
+        {
+            "title": "Soluções para o Advent of Code",
+            "url": "https://github.com/arzcbnh/advent-of-code",
+            "description": "Utilizando uma linguagem diferente do meu interesse em cada evento, estou desenvolvendo soluções para o Advent of Code. Pretendo no futuro criar uma interface web por onde será possível obter respostas para qualquer entrada dos desafios.",
+            "skills": "Algoritmos e estruturas de dados",
+            "tech": "TypeScript, C, Lua"
+        },
+        {
+            "title": "Projeto full-stack"
+        },
+        {
+            "title": "Projeto back-end"
+        },
+        {
+            "title": "Projeto front-end"
+        }
+    ],
+    "education": [
+        {
+            "title": "Desenvolvimento Full-stack",
+            "institute": "Driven",
+            "time": "Jun/2024 – Jan/2025"
+        },
+        {
+            "title": "Bacharelado em Física",
+            "institute": "Universidade Federal de Santa Catarina – UFSC",
+            "time": "Abr/2022 – Presente"
+        },
+        {
+            "title": "Inglês Nível C1",
+            "institute": "Cambridge English: First",
+            "time": "Obtido em Jan/2020"
+        }
+    ],
+    "profile": [
+        {
+            "title": "GitHub",
+            "data": "Matheus Henrique",
+            "icon": "assets/logo-github.svg",
+            "url": "https://github.com/arzcbnh"
+        },
+        {
+            "title": "LinkedIn",
+            "data": "Matheus Moreira",
+            "icon": "assets/logo-linkedin.svg",
+            "url": "https://www.linkedin.com/in/matthpmoreira/"
+        },
+        {
+            "title": "Telefone",
+            "data": "55 (48) 99114-7511",
+            "icon": "assets/call.svg",
+            "url": "https://wa.me/5548991147511"
+        },
+        {
+            "title": "Email",
+            "data": "matthpmoreira@gmail.com",
+            "icon": "assets/mail.svg"
+        },
+        {
+            "title": "Residência",
+            "data": "Florianópolis – SC",
+            "icon": "assets/home.svg"
+        }
+    ],
+    "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Node",
+        "Express",
+        "React",
+        "Git",
+        "PostgreSQL"
+    ]
+}
